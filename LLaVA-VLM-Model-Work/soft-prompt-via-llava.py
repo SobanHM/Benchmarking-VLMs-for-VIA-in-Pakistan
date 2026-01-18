@@ -1,4 +1,4 @@
-
+# implememted on dual 8 GB VRAM RTX Super 2080 GPU
 import os
 import json
 from PIL import Image
