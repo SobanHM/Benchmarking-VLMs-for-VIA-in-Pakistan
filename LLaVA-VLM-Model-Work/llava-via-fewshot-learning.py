@@ -104,7 +104,7 @@ for img_name in image_files:
         return_tensors="pt"
     ).to(model.device)
 
-    # fix padding token issues
+    # fix pad token issues (if not fixed then model response is empty)
     gen_cfg = model.generation_config
     gen_cfg.pad_token_id = processor.tokenizer.pad_token_id
     gen_cfg.eos_token_id = processor.tokenizer.eos_token_id
@@ -113,10 +113,10 @@ for img_name in image_files:
         output = model.generate(
             **inputs,
             max_new_tokens=200,
-            do_sample=False,           
+            do_sample=False, # prevent hallucination           
             top_p = None,
             temperature = None,
-            repetition_penalty=1.3,    # prevent loops
+            repetition_penalty=1.3,    # added prevent loops
         )
 
     # extract only the generated tokens
