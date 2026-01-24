@@ -1,0 +1,6 @@
+Category,Hallucination_Rate,Omission_Rate,Total_GT_Instances
+Level_Changes,0.0,92.3076923076923,13
+Entrances_Exits,100.0,100.0,9
+Trip_Hazards,21.212121212121215,58.730158730158735,63
+Structural_Obstacles,100.0,100.0,4
+Dynamic_Hazards,67.3913043478261,42.307692307692314,26
