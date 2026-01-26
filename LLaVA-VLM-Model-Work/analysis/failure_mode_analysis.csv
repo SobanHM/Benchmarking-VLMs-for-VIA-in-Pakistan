@@ -1,0 +1,8 @@
+Category,Hallucination_Rate,Omission_Rate,Total_Mentions
+Vertical Navigation (CRITICAL),0.0,100.0,0
+Exits & Entrances (CRITICAL),100.0,100.0,1
+Pathways (Safety),42.857142857142854,86.88524590163934,28
+Obstacles (Hazards),48.64864864864865,68.33333333333333,37
+Spatial Relations,63.095238095238095,83.7696335078534,84
+Crowd/People (Transient),70.1492537313433,37.5,134
+Other/General,63.28761251607372,69.5358349635426,4666
