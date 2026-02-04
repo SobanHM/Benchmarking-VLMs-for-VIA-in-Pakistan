@@ -1,0 +1,4390 @@
+[
+  {
+    "image_id": "sm_1.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_1.jpg_SE_0",
+        "type": "SE",
+        "entity": "chair",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_1.jpg_S_1",
+        "type": "S",
+        "entity": "chair",
+        "relation": "left",
+        "statement": "In front of you, there is a white chair positioned on the left side of the image.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_1.jpg_S_2",
+        "type": "S",
+        "entity": "chair",
+        "relation": "front",
+        "statement": "In front of you, there is a white chair positioned on the left side of the image.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_1.jpg_SE_3",
+        "type": "SE",
+        "entity": "chair",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_1.jpg_E_4",
+        "type": "E",
+        "entity": "wall",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_1.jpg_SE_5",
+        "type": "SE",
+        "entity": "chair",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_1.jpg_E_6",
+        "type": "E",
+        "entity": "rack",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_1.jpg_E_7",
+        "type": "E",
+        "entity": "jackets",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_1.jpg_S_8",
+        "type": "S",
+        "entity": "chair",
+        "relation": "front",
+        "statement": "The chair is placed in front of a rack filled with various jackets, which are hanging on a wall.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_1.jpg_S_9",
+        "type": "S",
+        "entity": "rack",
+        "relation": "front",
+        "statement": "The chair is placed in front of a rack filled with various jackets, which are hanging on a wall.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_1.jpg_S_10",
+        "type": "S",
+        "entity": "jackets",
+        "relation": "front",
+        "statement": "The chair is placed in front of a rack filled with various jackets, which are hanging on a wall.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_1.jpg_S_11",
+        "type": "S",
+        "entity": "wall",
+        "relation": "front",
+        "statement": "The chair is placed in front of a rack filled with various jackets, which are hanging on a wall.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_1.jpg_E_12",
+        "type": "E",
+        "entity": "jackets",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_1.jpg_SE_13",
+        "type": "SE",
+        "entity": "chair",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_1.jpg_E_14",
+        "type": "E",
+        "entity": "jackets",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_10.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_10.jpg_SE_0",
+        "type": "SE",
+        "entity": "chair",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_10.jpg_S_1",
+        "type": "S",
+        "entity": "chair",
+        "relation": "front",
+        "statement": "In front of you, there is a black chair placed on a white tile floor.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_10.jpg_SE_2",
+        "type": "SE",
+        "entity": "chair",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_10.jpg_SE_3",
+        "type": "SE",
+        "entity": "chair",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_10.jpg_SE_4",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_10.jpg_SE_5",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_10.jpg_S_6",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "The person is located towards the right side of the room, and their presence adds an element of human interaction to the otherwise empty space.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_100.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_100.jpg_A_0",
+        "type": "A",
+        "subtype": "A_move",
+        "instruction": "In the image, there is a man walking in a grocery store, passing by a display of green bottles.",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_100.jpg_E_1",
+        "type": "E",
+        "entity": "jeans",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_100.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_100.jpg_SE_3",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_100.jpg_S_4",
+        "type": "S",
+        "entity": "person",
+        "relation": "left",
+        "statement": "There is also a person standing near the left edge of the image, possibly browsing the store or waiting for someone.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_100.jpg_S_5",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "There is also a person standing near the left edge of the image, possibly browsing the store or waiting for someone.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_101.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_101.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_101.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a store shelf filled with a variety of bottled drinks.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_101.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_101.jpg_E_3",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_102.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_102.jpg_SE_0",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_102.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_102.jpg_S_2",
+        "type": "S",
+        "entity": "people",
+        "relation": "left",
+        "statement": "The store also has a few people shopping, with one person standing near the left side of the store and another person closer to the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_102.jpg_S_3",
+        "type": "S",
+        "entity": "person",
+        "relation": "left",
+        "statement": "The store also has a few people shopping, with one person standing near the left side of the store and another person closer to the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_102.jpg_S_4",
+        "type": "S",
+        "entity": "person",
+        "relation": "left",
+        "statement": "The store also has a few people shopping, with one person standing near the left side of the store and another person closer to the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_102.jpg_S_5",
+        "type": "S",
+        "entity": "people",
+        "relation": "right",
+        "statement": "The store also has a few people shopping, with one person standing near the left side of the store and another person closer to the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_102.jpg_S_6",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "The store also has a few people shopping, with one person standing near the left side of the store and another person closer to the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_102.jpg_S_7",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "The store also has a few people shopping, with one person standing near the left side of the store and another person closer to the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_102.jpg_S_8",
+        "type": "S",
+        "entity": "people",
+        "relation": "near",
+        "statement": "The store also has a few people shopping, with one person standing near the left side of the store and another person closer to the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_102.jpg_S_9",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "The store also has a few people shopping, with one person standing near the left side of the store and another person closer to the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_102.jpg_S_10",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "The store also has a few people shopping, with one person standing near the left side of the store and another person closer to the right side.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_103.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_103.jpg_E_0",
+        "type": "E",
+        "entity": "aisle",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_103.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_103.jpg_E_2",
+        "type": "E",
+        "entity": "aisle",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_103.jpg_E_3",
+        "type": "E",
+        "entity": "aisle",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_103.jpg_SE_4",
+        "type": "SE",
+        "entity": "cart",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_103.jpg_SE_5",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_104.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_104.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_104.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a store shelf filled with a variety of bottled drinks.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_104.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_105.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_105.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_105.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_105.jpg_S_2",
+        "type": "S",
+        "entity": "person",
+        "relation": "front",
+        "statement": "As a blind person, I am standing in front of a store shelf filled with various bottles of oils and liquids.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_105.jpg_S_3",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "As a blind person, I am standing in front of a store shelf filled with various bottles of oils and liquids.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_105.jpg_E_4",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_105.jpg_E_5",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_105.jpg_E_6",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_106.jpg",
+    "assertions": []
+  },
+  {
+    "image_id": "sm_107.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_107.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_108.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_108.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_108.jpg_S_1",
+        "type": "S",
+        "entity": "person",
+        "relation": "front",
+        "statement": "As a blind person, I am standing in front of a store with a large display of toiletries.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_108.jpg_E_2",
+        "type": "E",
+        "entity": "wall",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_109.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_109.jpg_E_0",
+        "type": "E",
+        "entity": "cookies",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_109.jpg_E_1",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_109.jpg_SE_2",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_109.jpg_SE_3",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_109.jpg_S_4",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "One person is standing to the right of the display, while the other person is standing further to the right.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_109.jpg_S_5",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "One person is standing to the right of the display, while the other person is standing further to the right.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_11.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_11.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_11.jpg_E_1",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_11.jpg_S_2",
+        "type": "S",
+        "entity": "chips",
+        "relation": "front",
+        "statement": "In front of you, there is a display of snacks, including chips and crackers, arranged on a shelf.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_11.jpg_S_3",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a display of snacks, including chips and crackers, arranged on a shelf.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_11.jpg_E_4",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_11.jpg_SE_5",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_11.jpg_S_6",
+        "type": "S",
+        "entity": "person",
+        "relation": "behind",
+        "statement": "A person is standing behind the display, possibly attending to customers or managing the snack area.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_11.jpg_SE_7",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_110.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_110.jpg_E_0",
+        "type": "E",
+        "entity": "aisle",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_110.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_111.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_111.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_111.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In the image, there is a man standing in front of a store shelf filled with various items.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_111.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_111.jpg_S_3",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "The shelf is stocked with many different toothbrushes, with some placed in the middle and others towards the front.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_111.jpg_S_4",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "middle",
+        "statement": "The shelf is stocked with many different toothbrushes, with some placed in the middle and others towards the front.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_111.jpg_E_5",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_111.jpg_S_6",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "near",
+        "statement": "There are also a few bottles on the shelf, located near the center and towards the back.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_111.jpg_E_7",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_112.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_112.jpg_A_0",
+        "type": "A",
+        "subtype": "A_move",
+        "instruction": "In front of you, there is a motorcycle parked on the sidewalk.",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_112.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_112.jpg_S_2",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "A person is standing near the motorcycle, possibly the owner or a passerby.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_113.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_113.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_113.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a shelf filled with various boxes of soap.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_113.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_114.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_114.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_114.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a store shelf filled with various products.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_114.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_114.jpg_E_3",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_114.jpg_E_4",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_115.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_115.jpg_E_0",
+        "type": "E",
+        "entity": "sale",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_115.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_115.jpg_S_2",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "A person is standing near the store, possibly browsing the items for sale.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_115.jpg_S_3",
+        "type": "S",
+        "entity": "sale",
+        "relation": "near",
+        "statement": "A person is standing near the store, possibly browsing the items for sale.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_115.jpg_E_4",
+        "type": "E",
+        "entity": "sale",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_116.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_116.jpg_A_0",
+        "type": "A",
+        "subtype": "A_move",
+        "instruction": "A man is walking past the grocery store, and there are several cakes visible in the scene.",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_116.jpg_E_1",
+        "type": "E",
+        "entity": "bowls",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_117.jpg",
+    "assertions": []
+  },
+  {
+    "image_id": "sm_118.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_118.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_118.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a shelf filled with various bottles and tubes of lotions and creams.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_118.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_119.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_119.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_119.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a white shelf with a variety of food items displayed on it.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_119.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_119.jpg_E_3",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_12.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_12.jpg_SE_0",
+        "type": "SE",
+        "entity": "cart",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_12.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_12.jpg_S_2",
+        "type": "S",
+        "entity": "person",
+        "relation": "front",
+        "statement": "As a blind person, you are standing in front of a red cart filled with various snacks.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_12.jpg_S_3",
+        "type": "S",
+        "entity": "cart",
+        "relation": "front",
+        "statement": "As a blind person, you are standing in front of a red cart filled with various snacks.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_12.jpg_SE_4",
+        "type": "SE",
+        "entity": "cart",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_12.jpg_SE_5",
+        "type": "SE",
+        "entity": "cart",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_12.jpg_S_6",
+        "type": "S",
+        "entity": "cart",
+        "relation": "middle",
+        "statement": "The cart is positioned in the middle of the scene, making it the main focus of the image.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_120.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_120.jpg_E_0",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_120.jpg_E_1",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_120.jpg_E_2",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_120.jpg_E_3",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_120.jpg_E_4",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_120.jpg_E_5",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_121.jpg",
+    "assertions": []
+  },
+  {
+    "image_id": "sm_122.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_122.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_122.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In the image, there is a man standing in front of a grocery store shelf filled with various food items.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_122.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_122.jpg_E_3",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_122.jpg_SE_4",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_122.jpg_SE_5",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_122.jpg_S_6",
+        "type": "S",
+        "entity": "people",
+        "relation": "left",
+        "statement": "There are other people in the scene, one of whom is standing near the left side of the image, and another person is located further back on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_122.jpg_S_7",
+        "type": "S",
+        "entity": "person",
+        "relation": "left",
+        "statement": "There are other people in the scene, one of whom is standing near the left side of the image, and another person is located further back on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_122.jpg_S_8",
+        "type": "S",
+        "entity": "people",
+        "relation": "right",
+        "statement": "There are other people in the scene, one of whom is standing near the left side of the image, and another person is located further back on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_122.jpg_S_9",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "There are other people in the scene, one of whom is standing near the left side of the image, and another person is located further back on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_122.jpg_S_10",
+        "type": "S",
+        "entity": "people",
+        "relation": "near",
+        "statement": "There are other people in the scene, one of whom is standing near the left side of the image, and another person is located further back on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_122.jpg_S_11",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "There are other people in the scene, one of whom is standing near the left side of the image, and another person is located further back on the right side.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_123.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_123.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_123.jpg_E_1",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_123.jpg_S_2",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "There are multiple bottles of hair care products on the shelf, with some of them being placed closer to the front and others further back.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_123.jpg_E_3",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_124.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_124.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_124.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a red shelf with a variety of food items displayed.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_124.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_124.jpg_E_3",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_124.jpg_E_4",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_125.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_125.jpg_E_0",
+        "type": "E",
+        "entity": "cookies",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_125.jpg_S_1",
+        "type": "S",
+        "entity": "cookies",
+        "relation": "front",
+        "statement": "In front of you, there is a large display of various cookies and crackers.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_125.jpg_E_2",
+        "type": "E",
+        "entity": "cookies",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_125.jpg_E_3",
+        "type": "E",
+        "entity": "cookies",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_13.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_13.jpg_E_0",
+        "type": "E",
+        "entity": "rack",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_13.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_13.jpg_S_2",
+        "type": "S",
+        "entity": "people",
+        "relation": "near",
+        "statement": "There are several other people in the scene, some of them standing near the woman and others further away.\n\n",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_13.jpg_SE_3",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_13.jpg_SE_4",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_14.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_14.jpg_SE_0",
+        "type": "SE",
+        "entity": "table",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_14.jpg_E_1",
+        "type": "E",
+        "entity": "bowl",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_14.jpg_S_2",
+        "type": "S",
+        "entity": "table",
+        "relation": "front",
+        "statement": "In front of you, there is a table with various items on it, including a bowl and a handbag.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_14.jpg_S_3",
+        "type": "S",
+        "entity": "bowl",
+        "relation": "front",
+        "statement": "In front of you, there is a table with various items on it, including a bowl and a handbag.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_14.jpg_SE_4",
+        "type": "SE",
+        "entity": "table",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_14.jpg_S_5",
+        "type": "S",
+        "entity": "table",
+        "relation": "near",
+        "statement": "A woman is standing near the table, possibly browsing the items.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_14.jpg_SE_6",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_14.jpg_A_7",
+        "type": "A",
+        "subtype": "A_move",
+        "instruction": "There are also other people in the scene, some of whom are standing or walking around.",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_15.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_15.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_15.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_15.jpg_S_2",
+        "type": "S",
+        "entity": "people",
+        "relation": "near",
+        "statement": "There are several people in the store, with one man standing near the handbags and another man standing near the suitcases.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_16.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_16.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_16.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_17.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_17.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_17.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_18.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_18.jpg_SE_0",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_18.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_19.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_19.jpg_SE_0",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_19.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_19.jpg_SE_2",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_2.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_2.jpg_E_0",
+        "type": "E",
+        "entity": "sale",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_2.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_2.jpg_S_2",
+        "type": "S",
+        "entity": "people",
+        "relation": "right",
+        "statement": "There are several people in the store, with one man standing near the center of the store, and another man standing closer to the right side of the store.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_2.jpg_S_3",
+        "type": "S",
+        "entity": "people",
+        "relation": "near",
+        "statement": "There are several people in the store, with one man standing near the center of the store, and another man standing closer to the right side of the store.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_2.jpg_E_4",
+        "type": "E",
+        "entity": "sale",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_20.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_20.jpg_SE_0",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_20.jpg_S_1",
+        "type": "S",
+        "entity": "people",
+        "relation": "near",
+        "statement": "There are several people in the area, with some standing near the luggage display and others scattered throughout the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_20.jpg_SE_2",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_20.jpg_S_3",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "Additionally, there is a person wearing a backpack, which is located towards the right side of the scene.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_21.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_21.jpg_SE_0",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_22.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_22.jpg_SE_0",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_23.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_23.jpg_SE_0",
+        "type": "SE",
+        "entity": "table",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_23.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_24.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_24.jpg_E_0",
+        "type": "E",
+        "entity": "shirts",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_24.jpg_E_1",
+        "type": "E",
+        "entity": "jeans",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_24.jpg_E_2",
+        "type": "E",
+        "entity": "shirts",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_24.jpg_E_3",
+        "type": "E",
+        "entity": "jeans",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_25.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_25.jpg_SE_0",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_25.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_25.jpg_S_2",
+        "type": "S",
+        "entity": "people",
+        "relation": "front",
+        "statement": "The people are gathered in front of the store, possibly waiting to enter or just socializing.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_25.jpg_SE_3",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_26.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_26.jpg_SE_0",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_26.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_26.jpg_SE_2",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_26.jpg_S_3",
+        "type": "S",
+        "entity": "people",
+        "relation": "near",
+        "statement": "In addition to the motorcyclists, there are a few people walking along the street, and a couple of individuals are standing near the motorcycles.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_26.jpg_A_4",
+        "type": "A",
+        "subtype": "A_move",
+        "instruction": "In addition to the motorcyclists, there are a few people walking along the street, and a couple of individuals are standing near the motorcycles.",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_26.jpg_SE_5",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_27.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_27.jpg_E_0",
+        "type": "E",
+        "entity": "counter",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_27.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_27.jpg_S_2",
+        "type": "S",
+        "entity": "people",
+        "relation": "near",
+        "statement": "In the image, there is a group of people gathered in a room, with some of them standing near a counter.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_27.jpg_S_3",
+        "type": "S",
+        "entity": "counter",
+        "relation": "near",
+        "statement": "In the image, there is a group of people gathered in a room, with some of them standing near a counter.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_27.jpg_SE_4",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_27.jpg_SE_5",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_27.jpg_E_6",
+        "type": "E",
+        "entity": "counter",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_27.jpg_S_7",
+        "type": "S",
+        "entity": "counter",
+        "relation": "front",
+        "statement": "A man is standing in front of a counter, possibly looking at a menu or a piece of paper.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_27.jpg_SE_8",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_28.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_28.jpg_SE_0",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_28.jpg_SE_1",
+        "type": "SE",
+        "entity": "table",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_28.jpg_SE_2",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_29.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_29.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_29.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_29.jpg_A_2",
+        "type": "A",
+        "subtype": "A_move",
+        "instruction": "There are several people in the store, some of them browsing the produce section, while others are walking around or engaging in conversation.",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_29.jpg_SE_3",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_29.jpg_SE_4",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_3.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_3.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_30.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_30.jpg_SE_0",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_30.jpg_SE_1",
+        "type": "SE",
+        "entity": "box",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_30.jpg_SE_2",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_31.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_31.jpg_SE_0",
+        "type": "SE",
+        "entity": "cart",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_31.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_31.jpg_SE_2",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_31.jpg_S_3",
+        "type": "S",
+        "entity": "person",
+        "relation": "left",
+        "statement": "One person is located near the left side of the store, another person is in the middle, and the third person is on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_31.jpg_S_4",
+        "type": "S",
+        "entity": "person",
+        "relation": "left",
+        "statement": "One person is located near the left side of the store, another person is in the middle, and the third person is on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_31.jpg_S_5",
+        "type": "S",
+        "entity": "person",
+        "relation": "left",
+        "statement": "One person is located near the left side of the store, another person is in the middle, and the third person is on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_31.jpg_S_6",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "One person is located near the left side of the store, another person is in the middle, and the third person is on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_31.jpg_S_7",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "One person is located near the left side of the store, another person is in the middle, and the third person is on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_31.jpg_S_8",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "One person is located near the left side of the store, another person is in the middle, and the third person is on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_31.jpg_S_9",
+        "type": "S",
+        "entity": "person",
+        "relation": "middle",
+        "statement": "One person is located near the left side of the store, another person is in the middle, and the third person is on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_31.jpg_S_10",
+        "type": "S",
+        "entity": "person",
+        "relation": "middle",
+        "statement": "One person is located near the left side of the store, another person is in the middle, and the third person is on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_31.jpg_S_11",
+        "type": "S",
+        "entity": "person",
+        "relation": "middle",
+        "statement": "One person is located near the left side of the store, another person is in the middle, and the third person is on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_31.jpg_S_12",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "One person is located near the left side of the store, another person is in the middle, and the third person is on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_31.jpg_S_13",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "One person is located near the left side of the store, another person is in the middle, and the third person is on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_31.jpg_S_14",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "One person is located near the left side of the store, another person is in the middle, and the third person is on the right side.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_32.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_32.jpg_E_0",
+        "type": "E",
+        "entity": "counter",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_32.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_32.jpg_S_2",
+        "type": "S",
+        "entity": "counter",
+        "relation": "near",
+        "statement": "He is positioned near a counter, and there are several other people in the store as well.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_32.jpg_S_3",
+        "type": "S",
+        "entity": "people",
+        "relation": "near",
+        "statement": "He is positioned near a counter, and there are several other people in the store as well.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_32.jpg_E_4",
+        "type": "E",
+        "entity": "tv",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_32.jpg_E_5",
+        "type": "E",
+        "entity": "wall",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_32.jpg_SE_6",
+        "type": "SE",
+        "entity": "cart",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_32.jpg_S_7",
+        "type": "S",
+        "entity": "cart",
+        "relation": "left",
+        "statement": "A yellow shopping cart is located towards the left side of the scene, and a TV is mounted on the wall in the background.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_32.jpg_S_8",
+        "type": "S",
+        "entity": "tv",
+        "relation": "left",
+        "statement": "A yellow shopping cart is located towards the left side of the scene, and a TV is mounted on the wall in the background.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_32.jpg_S_9",
+        "type": "S",
+        "entity": "wall",
+        "relation": "left",
+        "statement": "A yellow shopping cart is located towards the left side of the scene, and a TV is mounted on the wall in the background.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_32.jpg_SE_10",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_33.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_33.jpg_E_0",
+        "type": "E",
+        "entity": "counter",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_33.jpg_S_1",
+        "type": "S",
+        "entity": "counter",
+        "relation": "behind",
+        "statement": "In front of you, there is a man standing behind a counter in a bakery.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_33.jpg_S_2",
+        "type": "S",
+        "entity": "counter",
+        "relation": "front",
+        "statement": "In front of you, there is a man standing behind a counter in a bakery.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_33.jpg_E_3",
+        "type": "E",
+        "entity": "counter",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_34.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_34.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_34.jpg_SE_1",
+        "type": "SE",
+        "entity": "stairs",
+        "safety_dimension": "level_change",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_34.jpg_S_2",
+        "type": "S",
+        "entity": "stairs",
+        "relation": "front",
+        "statement": "In front of me, there is a set of stairs leading upwards.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_34.jpg_SE_3",
+        "type": "SE",
+        "entity": "stairs",
+        "safety_dimension": "level_change",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_34.jpg_SE_4",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_34.jpg_SE_5",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_34.jpg_S_6",
+        "type": "S",
+        "entity": "people",
+        "relation": "top",
+        "statement": "There are several people in the room, with one person standing near the top of the stairs and another person located closer to the center of the room.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_34.jpg_S_7",
+        "type": "S",
+        "entity": "person",
+        "relation": "top",
+        "statement": "There are several people in the room, with one person standing near the top of the stairs and another person located closer to the center of the room.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_34.jpg_S_8",
+        "type": "S",
+        "entity": "stairs",
+        "relation": "top",
+        "statement": "There are several people in the room, with one person standing near the top of the stairs and another person located closer to the center of the room.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_34.jpg_S_9",
+        "type": "S",
+        "entity": "person",
+        "relation": "top",
+        "statement": "There are several people in the room, with one person standing near the top of the stairs and another person located closer to the center of the room.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_34.jpg_S_10",
+        "type": "S",
+        "entity": "people",
+        "relation": "near",
+        "statement": "There are several people in the room, with one person standing near the top of the stairs and another person located closer to the center of the room.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_34.jpg_S_11",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "There are several people in the room, with one person standing near the top of the stairs and another person located closer to the center of the room.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_34.jpg_S_12",
+        "type": "S",
+        "entity": "stairs",
+        "relation": "near",
+        "statement": "There are several people in the room, with one person standing near the top of the stairs and another person located closer to the center of the room.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_34.jpg_S_13",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "There are several people in the room, with one person standing near the top of the stairs and another person located closer to the center of the room.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_34.jpg_SE_14",
+        "type": "SE",
+        "entity": "chair",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_34.jpg_S_15",
+        "type": "S",
+        "entity": "chair",
+        "relation": "near",
+        "statement": "Additionally, there is a chair placed near the center of the room.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_35.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_35.jpg_E_0",
+        "type": "E",
+        "entity": "aisle",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_35.jpg_SE_1",
+        "type": "SE",
+        "entity": "cart",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_35.jpg_SE_2",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_35.jpg_SE_3",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_4",
+        "type": "S",
+        "entity": "people",
+        "relation": "left",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_5",
+        "type": "S",
+        "entity": "person",
+        "relation": "left",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_6",
+        "type": "S",
+        "entity": "person",
+        "relation": "left",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_7",
+        "type": "S",
+        "entity": "person",
+        "relation": "left",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_8",
+        "type": "S",
+        "entity": "people",
+        "relation": "right",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_9",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_10",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_11",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_12",
+        "type": "S",
+        "entity": "people",
+        "relation": "middle",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_13",
+        "type": "S",
+        "entity": "person",
+        "relation": "middle",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_14",
+        "type": "S",
+        "entity": "person",
+        "relation": "middle",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_15",
+        "type": "S",
+        "entity": "person",
+        "relation": "middle",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_16",
+        "type": "S",
+        "entity": "people",
+        "relation": "near",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_17",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_18",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_35.jpg_S_19",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "In addition to the girl, there are three other people in the store, with one person standing near the left side of the image, another person on the right side, and the third person located in the middle of the scene.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_36.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_36.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_36.jpg_S_1",
+        "type": "S",
+        "entity": "person",
+        "relation": "front",
+        "statement": "As a blind person, you are standing in front of a grocery store display filled with various food items.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_36.jpg_E_2",
+        "type": "E",
+        "entity": "cookies",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_36.jpg_E_3",
+        "type": "E",
+        "entity": "cookies",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_36.jpg_S_4",
+        "type": "S",
+        "entity": "cookies",
+        "relation": "front",
+        "statement": "There are multiple boxes of cookies, with some placed closer to the front and others further back.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_37.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_37.jpg_E_0",
+        "type": "E",
+        "entity": "aisle",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_37.jpg_E_1",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_38.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_38.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_38.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_38.jpg_SE_2",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_38.jpg_SE_3",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_39.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_39.jpg_E_0",
+        "type": "E",
+        "entity": "cookies",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_39.jpg_S_1",
+        "type": "S",
+        "entity": "cookies",
+        "relation": "front",
+        "statement": "In front of you, there is a large display of various cakes and cookies.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_39.jpg_E_2",
+        "type": "E",
+        "entity": "cookies",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_39.jpg_E_3",
+        "type": "E",
+        "entity": "cookies",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_4.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_4.jpg_E_0",
+        "type": "E",
+        "entity": "shirts",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_4.jpg_S_1",
+        "type": "S",
+        "entity": "shirts",
+        "relation": "front",
+        "statement": "In front of you, there is a large clothing store with a variety of shirts and dresses on display.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_4.jpg_SE_2",
+        "type": "SE",
+        "entity": "table",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_4.jpg_E_3",
+        "type": "E",
+        "entity": "shirts",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_4.jpg_E_4",
+        "type": "E",
+        "entity": "rack",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_4.jpg_E_5",
+        "type": "E",
+        "entity": "%",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_4.jpg_E_6",
+        "type": "E",
+        "entity": "shirts",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_40.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_40.jpg_A_0",
+        "type": "A",
+        "subtype": "A_move",
+        "instruction": "In the image, there is a man walking down a hallway in a grocery store.",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_40.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_41.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_41.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_41.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of me, there is a shelf filled with different types of food, including canned goods and other packaged items.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_41.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_42.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_42.jpg_E_0",
+        "type": "E",
+        "entity": "product",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_42.jpg_E_1",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_42.jpg_S_2",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In the image, there is a man standing in front of a grocery store shelf, pointing at a product.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_42.jpg_S_3",
+        "type": "S",
+        "entity": "product",
+        "relation": "front",
+        "statement": "In the image, there is a man standing in front of a grocery store shelf, pointing at a product.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_42.jpg_E_4",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_42.jpg_E_5",
+        "type": "E",
+        "entity": "product",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_43.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_43.jpg_E_0",
+        "type": "E",
+        "entity": "aisle",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_43.jpg_A_1",
+        "type": "A",
+        "subtype": "A_move",
+        "instruction": "In the image, there is a woman standing in a grocery store, walking down an aisle.",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_43.jpg_E_2",
+        "type": "E",
+        "entity": "aisle",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_43.jpg_E_3",
+        "type": "E",
+        "entity": "product",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_44.jpg",
+    "assertions": []
+  },
+  {
+    "image_id": "sm_45.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_45.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_45.jpg_S_1",
+        "type": "S",
+        "entity": "person",
+        "relation": "behind",
+        "statement": "Additionally, there is a person standing behind the refrigerator, possibly browsing the store or attending to the refrigerator.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_45.jpg_SE_2",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_46.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_46.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_47.jpg",
+    "assertions": []
+  },
+  {
+    "image_id": "sm_48.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_48.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_48.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a shelf with a variety of bottles and cans.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_48.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_48.jpg_E_3",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_48.jpg_E_4",
+        "type": "E",
+        "entity": "sale",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_48.jpg_E_5",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_49.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_49.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_49.jpg_E_1",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_49.jpg_S_2",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a red shelf filled with different snacks.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_49.jpg_E_3",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_49.jpg_E_4",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_49.jpg_E_5",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_49.jpg_E_6",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_5.jpg",
+    "assertions": []
+  },
+  {
+    "image_id": "sm_50.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_50.jpg_E_0",
+        "type": "E",
+        "entity": "counter",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_51.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_51.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_51.jpg_S_1",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "A person is standing nearby, possibly browsing the selection.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_51.jpg_SE_2",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_51.jpg_S_3",
+        "type": "S",
+        "entity": "people",
+        "relation": "front",
+        "statement": "There are also other people in the store, some of whom are closer to the front and others further back.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_52.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_52.jpg_E_0",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_52.jpg_E_1",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_53.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_53.jpg_E_0",
+        "type": "E",
+        "entity": "cookies",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_54.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_54.jpg_E_0",
+        "type": "E",
+        "entity": "door",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_54.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_54.jpg_E_2",
+        "type": "E",
+        "entity": "bowl",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_54.jpg_S_3",
+        "type": "S",
+        "entity": "bowl",
+        "relation": "near",
+        "statement": "The refrigerator is located in a kitchen, and there is a bowl placed on a surface nearby.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_55.jpg",
+    "assertions": []
+  },
+  {
+    "image_id": "sm_56.jpg",
+    "assertions": []
+  },
+  {
+    "image_id": "sm_57.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_57.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_57.jpg_S_1",
+        "type": "S",
+        "entity": "person",
+        "relation": "front",
+        "statement": "As a blind person, you are standing in front of a grocery store with a wide variety of food items displayed.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_57.jpg_E_2",
+        "type": "E",
+        "entity": "cereal",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_57.jpg_E_3",
+        "type": "E",
+        "entity": "cereal",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_58.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_58.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_58.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_58.jpg_S_2",
+        "type": "S",
+        "entity": "person",
+        "relation": "front",
+        "statement": "As a blind person, I am standing in front of a store shelf filled with various food items.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_58.jpg_S_3",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "As a blind person, I am standing in front of a store shelf filled with various food items.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_58.jpg_E_4",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_58.jpg_E_5",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_58.jpg_S_6",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "There are several bottles placed on the shelf, with some closer to the front and others further back.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_58.jpg_E_7",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_58.jpg_E_8",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_59.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_59.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_59.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a store shelf filled with a variety of snacks.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_59.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_59.jpg_E_3",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_59.jpg_E_4",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_6.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_6.jpg_SE_0",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_6.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_60.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_60.jpg_E_0",
+        "type": "E",
+        "entity": "bowls",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_61.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_61.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_61.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a grocery store with a shelf full of various food items.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_61.jpg_E_2",
+        "type": "E",
+        "entity": "cereal",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_61.jpg_E_3",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_61.jpg_E_4",
+        "type": "E",
+        "entity": "cereal",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_62.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_62.jpg_E_0",
+        "type": "E",
+        "entity": "sale",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_62.jpg_E_1",
+        "type": "E",
+        "entity": "product",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_63.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_63.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_63.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a store shelf filled with various products.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_63.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_63.jpg_S_3",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "The shelf is stocked with numerous bottles, some of which are placed closer to the front, while others are positioned further back.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_63.jpg_E_4",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_63.jpg_S_5",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "There are also several boxes on the shelf, with some located near the front and others placed towards the back.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_63.jpg_S_6",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "near",
+        "statement": "There are also several boxes on the shelf, with some located near the front and others placed towards the back.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_63.jpg_E_7",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_64.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_64.jpg_SE_0",
+        "type": "SE",
+        "entity": "cart",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_64.jpg_S_1",
+        "type": "S",
+        "entity": "cart",
+        "relation": "front",
+        "statement": "In the image, a man is standing in a store, likely a grocery store, with a cart in front of him.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_64.jpg_E_2",
+        "type": "E",
+        "entity": "bowls",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_64.jpg_SE_3",
+        "type": "SE",
+        "entity": "cart",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_65.jpg",
+    "assertions": []
+  },
+  {
+    "image_id": "sm_66.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_66.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_66.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a shelf with a variety of food items displayed.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_66.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_66.jpg_S_3",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "The shelf is filled with numerous bottles, some of which are placed closer to the front, while others are positioned further back.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_66.jpg_E_4",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_67.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_67.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_67.jpg_S_1",
+        "type": "S",
+        "entity": "person",
+        "relation": "front",
+        "statement": "As a blind person, you are standing in a grocery store with a variety of food items displayed in front of you.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_68.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_68.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_68.jpg_E_1",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_69.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_69.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_69.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a shelf filled with various food items.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_69.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_69.jpg_E_3",
+        "type": "E",
+        "entity": "bowls",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_69.jpg_E_4",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_69.jpg_E_5",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_7.jpg",
+    "assertions": []
+  },
+  {
+    "image_id": "sm_70.jpg",
+    "assertions": []
+  },
+  {
+    "image_id": "sm_71.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_71.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_71.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_71.jpg_SE_2",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_71.jpg_S_3",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "Some bottles are located near the person, while others are positioned further away.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_72.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_72.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_72.jpg_SE_1",
+        "type": "SE",
+        "entity": "table",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_72.jpg_S_2",
+        "type": "S",
+        "entity": "table",
+        "relation": "front",
+        "statement": "In front of you, there is a large wooden table with a display of small clay vases.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_72.jpg_SE_3",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_72.jpg_SE_4",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_72.jpg_S_5",
+        "type": "S",
+        "entity": "people",
+        "relation": "left",
+        "statement": "There are several people in the store, with one person standing close to the left side of the image, another person in the middle, and a third person on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_72.jpg_S_6",
+        "type": "S",
+        "entity": "person",
+        "relation": "left",
+        "statement": "There are several people in the store, with one person standing close to the left side of the image, another person in the middle, and a third person on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_72.jpg_S_7",
+        "type": "S",
+        "entity": "person",
+        "relation": "left",
+        "statement": "There are several people in the store, with one person standing close to the left side of the image, another person in the middle, and a third person on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_72.jpg_S_8",
+        "type": "S",
+        "entity": "person",
+        "relation": "left",
+        "statement": "There are several people in the store, with one person standing close to the left side of the image, another person in the middle, and a third person on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_72.jpg_S_9",
+        "type": "S",
+        "entity": "people",
+        "relation": "right",
+        "statement": "There are several people in the store, with one person standing close to the left side of the image, another person in the middle, and a third person on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_72.jpg_S_10",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "There are several people in the store, with one person standing close to the left side of the image, another person in the middle, and a third person on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_72.jpg_S_11",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "There are several people in the store, with one person standing close to the left side of the image, another person in the middle, and a third person on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_72.jpg_S_12",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "There are several people in the store, with one person standing close to the left side of the image, another person in the middle, and a third person on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_72.jpg_S_13",
+        "type": "S",
+        "entity": "people",
+        "relation": "middle",
+        "statement": "There are several people in the store, with one person standing close to the left side of the image, another person in the middle, and a third person on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_72.jpg_S_14",
+        "type": "S",
+        "entity": "person",
+        "relation": "middle",
+        "statement": "There are several people in the store, with one person standing close to the left side of the image, another person in the middle, and a third person on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_72.jpg_S_15",
+        "type": "S",
+        "entity": "person",
+        "relation": "middle",
+        "statement": "There are several people in the store, with one person standing close to the left side of the image, another person in the middle, and a third person on the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_72.jpg_S_16",
+        "type": "S",
+        "entity": "person",
+        "relation": "middle",
+        "statement": "There are several people in the store, with one person standing close to the left side of the image, another person in the middle, and a third person on the right side.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_73.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_73.jpg_SE_0",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_73.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_73.jpg_SE_2",
+        "type": "SE",
+        "entity": "cart",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_73.jpg_SE_3",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_73.jpg_S_4",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "The other person is standing near a cart filled with boxes.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_73.jpg_S_5",
+        "type": "S",
+        "entity": "cart",
+        "relation": "near",
+        "statement": "The other person is standing near a cart filled with boxes.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_74.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_74.jpg_E_0",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_74.jpg_E_1",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_74.jpg_SE_2",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_75.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_75.jpg_E_0",
+        "type": "E",
+        "entity": "tea",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_75.jpg_E_1",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_75.jpg_S_2",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a shelf filled with various bags of tea.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_75.jpg_S_3",
+        "type": "S",
+        "entity": "tea",
+        "relation": "front",
+        "statement": "In front of you, there is a shelf filled with various bags of tea.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_75.jpg_E_4",
+        "type": "E",
+        "entity": "tea",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_75.jpg_S_5",
+        "type": "S",
+        "entity": "tea",
+        "relation": "front",
+        "statement": "The tea bags are arranged in different sections, with some placed closer to the front and others further back.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_75.jpg_E_6",
+        "type": "E",
+        "entity": "tea",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_75.jpg_E_7",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_75.jpg_E_8",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_75.jpg_E_9",
+        "type": "E",
+        "entity": "tea",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_76.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_76.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_76.jpg_E_1",
+        "type": "E",
+        "entity": "counter",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_77.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_77.jpg_E_0",
+        "type": "E",
+        "entity": "aisle",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_77.jpg_A_1",
+        "type": "A",
+        "subtype": "A_move",
+        "instruction": "In the image, there is a store with a man walking down the aisle.",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_77.jpg_SE_2",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_77.jpg_S_3",
+        "type": "S",
+        "entity": "people",
+        "relation": "right",
+        "statement": "There are two other people in the store, one standing near the center and the other closer to the right side.\n\n",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_77.jpg_S_4",
+        "type": "S",
+        "entity": "people",
+        "relation": "near",
+        "statement": "There are two other people in the store, one standing near the center and the other closer to the right side.\n\n",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_77.jpg_E_5",
+        "type": "E",
+        "entity": "bowls",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_77.jpg_E_6",
+        "type": "E",
+        "entity": "bowls",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_77.jpg_S_7",
+        "type": "S",
+        "entity": "bowls",
+        "relation": "left",
+        "statement": "The bowls are located near the center of the store, and there is a cup placed on a surface towards the left side.\n\n",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_77.jpg_S_8",
+        "type": "S",
+        "entity": "bowls",
+        "relation": "near",
+        "statement": "The bowls are located near the center of the store, and there is a cup placed on a surface towards the left side.\n\n",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_77.jpg_SE_9",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_78.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_78.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_78.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_78.jpg_S_2",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "The person is positioned towards the right side of the image, and their presence adds a sense of activity to the scene.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_79.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_79.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_79.jpg_S_1",
+        "type": "S",
+        "entity": "person",
+        "relation": "near",
+        "statement": "A person is standing near the bottles, holding a bag.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_79.jpg_SE_2",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_8.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_8.jpg_SE_0",
+        "type": "SE",
+        "entity": "chair",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_8.jpg_S_1",
+        "type": "S",
+        "entity": "chair",
+        "relation": "left",
+        "statement": "The man is standing in front of a chair, which is located towards the left side of the room.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_8.jpg_S_2",
+        "type": "S",
+        "entity": "chair",
+        "relation": "front",
+        "statement": "The man is standing in front of a chair, which is located towards the left side of the room.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_80.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_80.jpg_E_0",
+        "type": "E",
+        "entity": "bowls",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_81.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_81.jpg_E_0",
+        "type": "E",
+        "entity": "bowls",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_82.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_82.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_82.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a shelf filled with various food items.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_82.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_82.jpg_E_3",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_83.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_83.jpg_SE_0",
+        "type": "SE",
+        "entity": "chair",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_83.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_83.jpg_S_2",
+        "type": "S",
+        "entity": "person",
+        "relation": "middle",
+        "statement": "A refrigerator is located in the background, and a person can be seen sitting on a chair in the middle of the store.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_83.jpg_S_3",
+        "type": "S",
+        "entity": "chair",
+        "relation": "middle",
+        "statement": "A refrigerator is located in the background, and a person can be seen sitting on a chair in the middle of the store.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_84.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_84.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_84.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a store with a shelf filled with various candy items.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_84.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_84.jpg_E_3",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_85.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_85.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_85.jpg_E_1",
+        "type": "E",
+        "entity": "cookies",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_86.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_86.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_87.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_87.jpg_SE_0",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_87.jpg_SE_1",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_87.jpg_S_2",
+        "type": "S",
+        "entity": "people",
+        "relation": "left",
+        "statement": "There are also two other people in the scene, one standing to the left of the refrigerator and the other person standing to the right.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_87.jpg_S_3",
+        "type": "S",
+        "entity": "person",
+        "relation": "left",
+        "statement": "There are also two other people in the scene, one standing to the left of the refrigerator and the other person standing to the right.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_87.jpg_S_4",
+        "type": "S",
+        "entity": "people",
+        "relation": "right",
+        "statement": "There are also two other people in the scene, one standing to the left of the refrigerator and the other person standing to the right.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_87.jpg_S_5",
+        "type": "S",
+        "entity": "person",
+        "relation": "right",
+        "statement": "There are also two other people in the scene, one standing to the left of the refrigerator and the other person standing to the right.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_88.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_88.jpg_E_0",
+        "type": "E",
+        "entity": "wall",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_88.jpg_S_1",
+        "type": "S",
+        "entity": "wall",
+        "relation": "behind",
+        "statement": "The refrigerator is placed in a room with a white wall behind it.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_88.jpg_SE_2",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_89.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_89.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_89.jpg_E_1",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_89.jpg_E_2",
+        "type": "E",
+        "entity": "counter",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_9.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_9.jpg_E_0",
+        "type": "E",
+        "entity": "shirts",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_9.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_9.jpg_S_2",
+        "type": "S",
+        "entity": "people",
+        "relation": "left",
+        "statement": "There are two people in the room, one standing closer to the left side and the other near the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_9.jpg_S_3",
+        "type": "S",
+        "entity": "people",
+        "relation": "right",
+        "statement": "There are two people in the room, one standing closer to the left side and the other near the right side.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_9.jpg_S_4",
+        "type": "S",
+        "entity": "people",
+        "relation": "near",
+        "statement": "There are two people in the room, one standing closer to the left side and the other near the right side.",
+        "criticality": "C2"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_90.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_90.jpg_A_0",
+        "type": "A",
+        "subtype": "A_move",
+        "instruction": "In the image, a man is walking down a hallway in a grocery store.",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_90.jpg_SE_1",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_91.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_91.jpg_E_0",
+        "type": "E",
+        "entity": "product",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_91.jpg_E_1",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_91.jpg_E_2",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_91.jpg_E_3",
+        "type": "E",
+        "entity": "chips",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_92.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_92.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_92.jpg_E_1",
+        "type": "E",
+        "entity": "cereal",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_92.jpg_SE_2",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_92.jpg_E_3",
+        "type": "E",
+        "entity": "cereal",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_92.jpg_SE_4",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_92.jpg_SE_5",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_93.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_93.jpg_SE_0",
+        "type": "SE",
+        "entity": "table",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_93.jpg_SE_1",
+        "type": "SE",
+        "entity": "table",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_93.jpg_SE_2",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_93.jpg_SE_3",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_93.jpg_SE_4",
+        "type": "SE",
+        "entity": "table",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_93.jpg_S_5",
+        "type": "S",
+        "entity": "table",
+        "relation": "near",
+        "statement": "A car can be seen outside the room, and a handbag is located near the dining table.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_93.jpg_SE_6",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_94.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_94.jpg_E_0",
+        "type": "E",
+        "entity": "aisle",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_94.jpg_E_1",
+        "type": "E",
+        "entity": "aisle",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_94.jpg_SE_2",
+        "type": "SE",
+        "entity": "people",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_95.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_95.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_95.jpg_S_1",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of you, there is a shelf with a variety of cat food products.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_95.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_95.jpg_S_3",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "top",
+        "statement": "The shelf is filled with multiple bags of cat food, including a prominent bag of Topline cat food.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_95.jpg_E_4",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_96.jpg",
+    "assertions": []
+  },
+  {
+    "image_id": "sm_97.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_97.jpg_SE_0",
+        "type": "SE",
+        "entity": "person",
+        "safety_dimension": "dynamic_agents",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_97.jpg_SE_1",
+        "type": "SE",
+        "entity": "box",
+        "safety_dimension": "path_obstruction",
+        "criticality": "C1"
+      },
+      {
+        "assertion_id": "sm_97.jpg_E_2",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_97.jpg_S_3",
+        "type": "S",
+        "entity": "shelf",
+        "relation": "front",
+        "statement": "In front of me, there is a shelf with a variety of products, including a box of Ariel detergent.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_97.jpg_S_4",
+        "type": "S",
+        "entity": "box",
+        "relation": "front",
+        "statement": "In front of me, there is a shelf with a variety of products, including a box of Ariel detergent.",
+        "criticality": "C2"
+      },
+      {
+        "assertion_id": "sm_97.jpg_E_5",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_98.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_98.jpg_E_0",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      },
+      {
+        "assertion_id": "sm_98.jpg_E_1",
+        "type": "E",
+        "entity": "shelf",
+        "criticality": "C3"
+      }
+    ]
+  },
+  {
+    "image_id": "sm_99.jpg",
+    "assertions": [
+      {
+        "assertion_id": "sm_99.jpg_E_0",
+        "type": "E",
+        "entity": "bowls",
+        "criticality": "C3"
+      }
+    ]
+  }
+]
